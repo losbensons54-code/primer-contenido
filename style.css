@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-header {
+  background-color: rgb(221, 87, 87);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.navbar-header section {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-header img {
+  width: 150px;
+  height: 150px;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+.navbar-header ul {
+  list-style: none;
+  display: flex;
+}
+.navbar-header a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 5px;
+}
